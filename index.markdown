@@ -4,3 +4,21 @@
 
 layout: home
 ---
+
+<ul>
+  {% for collection in site.collections %}
+    {% if collection.label != 'posts' %}
+    <li>
+      {{ collection.label }}
+      <ul>
+        {% assign docs = collection.docs | sort: order | reverse %}
+        {% for doc in docs %}
+            <li>
+            <a href="{{ doc.url }}">{{ doc.title }}</a> {{ doc.order }}
+            </li>
+        {% endfor %}
+        </ul>  
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
