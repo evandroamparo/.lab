@@ -1,7 +1,8 @@
 ---
 title: Filas
-layout: home
+layout: tutorial
+order: 2
 ---
 
 
-Intro to RabbitMQ
+Filas

@@ -1,7 +1,11 @@
 ---
-title: Introduction
-layout: home
+title: Introdução
+layout: tutorial
+order: 1
 ---
 
 
-Intro to RabbitMQ
+## Intro to RabbitMQ
+
+
+
