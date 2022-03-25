@@ -55,5 +55,5 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  - rabbitmq
   - cli
+  - rabbitmq
