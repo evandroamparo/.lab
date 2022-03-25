@@ -2,7 +2,9 @@
 tasks:
   - name: setup
     init: bundle install # runs during prebuild
-    command: jekyll build --watch
+    command: 
+      jekyll build --watch
+      jekyll serve
   - name: dev server
     command:  jekyll serve
 
