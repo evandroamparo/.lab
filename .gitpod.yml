@@ -1,11 +1,11 @@
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: setup
-    init: |
-      bundle install
+  - name: bundle
+    init: >
+      bundle install &&
       gp sync-done bundle
+    command: rails server
 
-  - name: build & watch
+  - name: build and watch
     init: gp sync-await bundle
     command: jekyll build --watch
 
@@ -13,7 +13,6 @@ tasks:
     init: gp sync-await bundle
     command: jekyll serve
 
-# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-ports:
-  - port: 4000
-    onOpen: open-preview
+  - name: Sidekiq
+    init: gp sync-await bundle
+    command: sidekiq
