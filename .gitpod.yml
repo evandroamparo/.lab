@@ -1,18 +1,10 @@
 tasks:
-  - name: bundle
+  - name: setup and build
     init: >
       bundle install &&
       gp sync-done bundle
-    command: rails server
-
-  - name: build and watch
-    init: gp sync-await bundle
     command: jekyll build --watch
 
   - name: dev server
     init: gp sync-await bundle
     command: jekyll serve
-
-  - name: Sidekiq
-    init: gp sync-await bundle
-    command: sidekiq
