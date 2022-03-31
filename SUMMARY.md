@@ -1,3 +1,3 @@
 # Table of contents
 
-* [.LAB](README.md)
+* [.LAB: Learn & Build (repeat)](README.md)
