@@ -1,10 +1,8 @@
 ---
-description: Aulas de programação rápidas e 100% práticas
+description: Aulas de programação rápidas e 100% práticas 🧪 = 👩💻 ↔ 🏗(🔁)
 ---
 
 # .LAB: Learn & Build (repeat)
-
-### 🧪 = 👩💻 ↔ 🏗(🔁)
 
 ### O que é o .LAB?
 
