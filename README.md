@@ -1,5 +1,5 @@
 ---
-description: Aulas de programação rápidas e 100% práticas 🧪 = 👩💻 ↔ 🏗(🔁)
+description: Aulas de programação rápidas e 100% práticas 🧪 = 👩💻 ↔ 🏗 (🔁)
 ---
 
 # .LaB: Learn & Build (repeat)
