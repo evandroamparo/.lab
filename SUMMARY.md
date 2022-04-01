@@ -1,6 +1,6 @@
 # Table of contents
 
-* [.LAB: Learn & Build (repeat)](README.md)
+* [.LaB: Learn & Build (repeat)](README.md)
 * [Mensageria com RabbitMQ](mensageria-com-rabbitmq/README.md)
   * [1. Introdução](mensageria-com-rabbitmq/1.-introducao.md)
   * [2. Publish/subscribe](mensageria-com-rabbitmq/2.-publish-subscribe.md)

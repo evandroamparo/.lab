@@ -2,9 +2,9 @@
 description: Aulas de programação rápidas e 100% práticas 🧪 = 👩💻 ↔ 🏗(🔁)
 ---
 
-# .LAB: Learn & Build (repeat)
+# .LaB: Learn & Build (repeat)
 
-### O que é o .LAB?
+### O que é o .LaB?
 
 Tutoriais em vídeo sobre desenvolvimento de software, focados na prática, para você consumir em pouco tempo.
 
